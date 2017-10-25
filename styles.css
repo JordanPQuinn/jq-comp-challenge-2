@@ -1,0 +1,65 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#page-head {
+  background: #2B2B2B;
+  height: 75px;
+  width: 100%;
+}
+
+#user-container {
+  color: #2F80AC;
+  display: inline;
+  margin-right: 15px;
+  margin-top: 10px;
+  position: absolute;
+  right: 0;
+}
+
+#nav-bar {
+  height: 100%;
+  width: 100%;
+}
+
+li {
+  bottom: -45px;
+  color: #8B8B8B;
+  display: inline;
+  margin-left: 15px;
+  position: relative;
+}
+
+#share-header{
+  color: #8B8B8B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+#card-storage {
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+}
+
+.recipe-card{
+  width: 25%;
+}
+
+.recipe-content {
+  height: 25%;
+  width: 100%;
+}
+
+.image-container {
+  background-image: url("images/skilletchicken.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100%;
+}
+
