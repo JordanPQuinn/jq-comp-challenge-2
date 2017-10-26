@@ -1,5 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
+  height: 100%;
+  background: #EFEFEF;
 }
 
 #page-head {
@@ -28,10 +30,11 @@ li {
   display: inline;
   margin-left: 15px;
   position: relative;
+  cursor: pointer;
 }
 
 #share-header{
-  color: #8B8B8B;
+  color: #4D4D4D;
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   margin-bottom: 20px;
@@ -41,13 +44,22 @@ li {
 }
 
 #card-storage {
-  display: inline-flex;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   height: 100%;
   width: 100%;
 }
 
-.recipe-card{
-  width: 25%;
+.recipe-card{ 
+  height: 375px;
+  background: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  min-width: 250px;
+  width: 23.5%;
+  box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, .2);
 }
 
 .recipe-content {
@@ -56,10 +68,62 @@ li {
 }
 
 .image-container {
+  position: relative;
   background-image: url("images/skilletchicken.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100px;
+  background-size: 325px;
+  height: 125px;
   width: 100%;
+}
+
+.icon {
+  height: 15px;
+  margin-right: 5px;
+}
+
+li p {
+  display: inline;
+  vertical-align: text-top;
+  font-size: 15px;
+}
+
+.card-header {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 15px;
+  color: #2B2B2B;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: 2px;
+  color: lightgrey;
+}
+
+.link-container {
+  margin: 15px 15px;
+  height: 50px;
+  width: 90%;
+  background: lightgrey;
+  opacity: .7;
+}
+
+.cookbook-name {
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 2px;
+}
+
+#link-text {
+  margin-left: 5px;
+  padding-top: 5px;
+  color: #2B2B2B;
+}
+
+.attachment-number {
+  margin-left: 15px;
+  font-size: 34px;
+  color: #34B5FC;
 }
 
