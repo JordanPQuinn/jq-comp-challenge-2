@@ -95,7 +95,8 @@ li {
 }
 
 .recipe-card{ 
-  height: 400px;
+  min-height: 400px;
+  height: 50%;
   background: white;
   margin-bottom: 10px;
   margin-right: 10px;
